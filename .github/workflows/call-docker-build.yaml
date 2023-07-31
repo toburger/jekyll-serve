@@ -75,6 +75,5 @@ jobs:
       ghcr-enable: true
       image-names: |
         toburger/jekyll-serve 
-        ghcr.io/toburger/jekyll-serve
       platforms: linux/amd64,linux/arm64,linux/arm/v7
       target: jekyll-serve
