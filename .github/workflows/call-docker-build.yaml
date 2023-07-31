@@ -43,8 +43,8 @@ jobs:
       dockerhub-enable: true
       ghcr-enable: false
       image-names: |
-        bretfisher/jekyll
-        ghcr.io/bretfisher/jekyll
+        toburger/jekyll
+        ghcr.io/toburger/jekyll
       platforms: linux/amd64,linux/arm64,linux/arm/v7
       target: jekyll
 
@@ -75,5 +75,6 @@ jobs:
       ghcr-enable: false
       image-names: |
         toburger/jekyll-serve 
+        ghcr.io/toburger/jekyll-serve
       platforms: linux/amd64,linux/arm64,linux/arm/v7
       target: jekyll-serve
