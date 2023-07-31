@@ -72,7 +72,7 @@ jobs:
 
     with:
       dockerhub-enable: true
-      ghcr-enable: true
+      ghcr-enable: false
       image-names: |
         toburger/jekyll-serve 
       platforms: linux/amd64,linux/arm64,linux/arm/v7
